@@ -29,23 +29,14 @@
       "product-identifier.product",
       "buy-button",
       "product-price",
-      "flex-layout.row#qty-sku"
+      "flex-layout.row#qty-sku",
+      "shipping-simulator"
     ]
   },
   "flex-layout.row#qty-sku": {
     "children": [
       "sku-selector",
       "product-quantity"
-    ]
-  },
-  "sku-selector": {
-    "children": [
-      "shipping-simulator"
-    ]
-  }, 
-  "product-quantity": {
-    "children": [
-      "shipping-simulator"
     ]
   },
   "product-price": {
