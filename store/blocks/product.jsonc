@@ -42,7 +42,7 @@
     "children": [
       "shipping-simulator"
     ]
-  },
+  }, 
   "product-quantity": {
     "children": [
       "shipping-simulator"
