@@ -1,6 +1,6 @@
 {
     "slider-layout#home": {
-        "children": ["image-brand#1", "image-brand#2", "image-brand#3", "image-brand#4", "image-brand#5", "image-brand#6"],
+        "children": ["image#brand1", "image#brand2", "image#brand3", "image#brand4", "image#brand5", "image#brand6"],
         "props": {
           "autoplay": {
             "timeout": 7000,
@@ -9,7 +9,7 @@
         }
       },
       
-      "image-brand#1": {
+      "image#brand1": {
         "props": {
           "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
           "isFullModeStyle": true,
@@ -20,7 +20,7 @@
         }
       },
       
-      "image-brand#2": {
+      "image#brand2": {
         "props": {
           "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
           "isFullModeStyle": true,
@@ -31,7 +31,7 @@
         }
       },
 
-      "image-brand#3": {
+      "image#brand3": {
         "props": {
           "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
           "isFullModeStyle": true,
@@ -42,7 +42,7 @@
         }
       },
 
-      "image-brand#4": {
+      "image#brand4": {
         "props": {
           "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
           "isFullModeStyle": true,
@@ -53,7 +53,7 @@
         }
       },
 
-      "image-brand#5": {
+      "image#brand5": {
         "props": {
           "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
           "isFullModeStyle": true,
@@ -64,7 +64,7 @@
         }
       },
 
-      "image-brand#6": {
+      "image#brand6": {
         "props": {
           "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
           "isFullModeStyle": true,
