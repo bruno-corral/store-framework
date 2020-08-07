@@ -1,0 +1,25 @@
+{
+    "store.custom#landing": {
+        "blocks": [
+            "image#landingbanner", 
+            "search-result-layout.customQuery"
+        ]
+    },
+    "image#landingbanner": {
+        "props": {
+            "minWidth": "100%",
+            "imageUrl": "../../assets/images/mesaDeTrabalho.jpg"
+        }
+    },
+    "search-result-layout.customQuery": {
+        "props": {
+            "querySchema": {
+                "minWidth": "100%",
+                "imageUrl": "../../assets/images/mesaDeTrabalho.jpg",
+                "orderByField": "DESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 8
+            }
+        }
+    }
+}
