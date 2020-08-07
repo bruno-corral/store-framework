@@ -12,8 +12,7 @@
     ]
   },
   "menu-item#small-appliances": {
-      "props":
-    {
+      "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
@@ -26,8 +25,7 @@
     ]
   },
   "menu-item#electronics": {
-      "props":
-    {
+      "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
@@ -39,9 +37,15 @@
       "vtex.menu@2.x:submenu#electronics"
     ]
   },
+  "vtex.menu@2.x:submenu#major": {
+    "children": [
+      "menu-item#refrigerators",
+      "menu-item#ovens",
+      "menu-item#washers"
+    ]
+  },
   "menu-item#refrigerators": {
-      "props":
-    {
+      "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
@@ -51,8 +55,7 @@
     }
   },
   "menu-item#ovens": {
-      "props":
-    {
+      "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
@@ -62,8 +65,7 @@
     }
   },
   "menu-item#washers": {
-      "props":
-    {
+      "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
@@ -72,26 +74,31 @@
       }
     }
   },
+  "vtex.menu@2.x:submenu#small": {
+    "children": [
+      "menu-item#mixers",
+      "menu-item#toasters",
+      "menu-item#coffee"
+    ]
+  },
   "menu-item#mixers": {
-      "props":
-    {
-      "type": "category",
-      "highlight": true,
-      "itemProps": {
-        "categoryId": 7, 
-        "text": "Mixers & Blenders"
+      "props": {
+        "type": "category",
+        "highlight": true,
+        "itemProps": {
+          "categoryId": 7, 
+          "text": "Mixers & Blenders"
+        }
       }
-    }
   },
   "menu-item#toasters": {
-      "props":
-    {
-      "type": "category",
-      "highlight": true,
-      "itemProps": {
-        "categoryId": 8, 
-        "text": "Toasters & Grills"
-      }
+      "props": {
+        "type": "category",
+        "highlight": true,
+        "itemProps": {
+          "categoryId": 8, 
+          "text": "Toasters & Grills"
+        }
     }
   },
   "menu-item#coffee": {
@@ -104,6 +111,13 @@
         "text": "Coffee Makers"
       }
     }
+  },
+  "vtex.menu@2.x:submenu#electronics": {
+    "children": [
+      "menu-item#tvs",
+      "menu-item#laptops",
+      "menu-item#cameras"
+    ]
   },
   "menu-item#tvs": {
       "props":
