@@ -37,13 +37,6 @@
       "vtex.menu@2.x:submenu#electronics"
     ]
   },
-  "vtex.menu@2.x:submenu#major": {
-    "children": [
-      "menu-item#refrigerators",
-      "menu-item#ovens",
-      "menu-item#washers"
-    ]
-  },
   "menu-item#refrigerators": {
       "props": {
       "type": "category",
@@ -73,13 +66,6 @@
         "text": "Washers & Dryers"
       }
     }
-  },
-  "vtex.menu@2.x:submenu#small": {
-    "children": [
-      "menu-item#mixers",
-      "menu-item#toasters",
-      "menu-item#coffee"
-    ]
   },
   "menu-item#mixers": {
       "props": {
@@ -111,13 +97,6 @@
         "text": "Coffee Makers"
       }
     }
-  },
-  "vtex.menu@2.x:submenu#electronics": {
-    "children": [
-      "menu-item#tvs",
-      "menu-item#laptops",
-      "menu-item#cameras"
-    ]
   },
   "menu-item#tvs": {
       "props":
