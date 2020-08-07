@@ -8,14 +8,14 @@
     "image#landingbanner": {
         "props": {
             "minWidth": "100%",
-            "imageUrl": "https://betefarias.com.br/wp-content/uploads/2018/12/mesa-de-trabalho-organizada-1080x675.jpg"
+            "src": "https://betefarias.com.br/wp-content/uploads/2018/12/mesa-de-trabalho-organizada-1080x675.jpg"
         }
     },
     "search-result-layout.customQuery": {
         "props": {
             "querySchema": {
                 "minWidth": "100%",
-                "imageUrl": "https://betefarias.com.br/wp-content/uploads/2018/12/mesa-de-trabalho-organizada-1080x675.jpg",
+                "src": "https://betefarias.com.br/wp-content/uploads/2018/12/mesa-de-trabalho-organizada-1080x675.jpg",
                 "orderByField": "DESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 8
